@@ -24,12 +24,12 @@ DisableWAPPush
 
 # SetUACLow
 # EnableSharingMappedDrives
-DisableAdminShares
+# DisableAdminShares
 # DisableSMB1
 # DisableSMBServer
 # DisableLLMNR
 # DisableNCSIProbe
-SetCurrentNetworkPrivate
+# SetCurrentNetworkPrivate
 # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst
 # EnableCtrldFolderAccess
@@ -39,7 +39,7 @@ SetCurrentNetworkPrivate
 EnableF8BootMenu
 SetDEPOptOut
 # EnableCIMemoryIntegrity
-DisableScriptHost
+# DisableScriptHost
 EnableDotNetStrongCrypto
 # EnableMeltdownCompatFlag
 
@@ -48,7 +48,7 @@ EnableDotNetStrongCrypto
 DisableUpdateRestart
 # DisableHomeGroups
 DisableSharedExperiences
-DisableRemoteAssistance
+# DisableRemoteAssistance
 EnableRemoteDesktop
 DisableAutoplay
 DisableAutorun
@@ -66,15 +66,15 @@ DisableActionCenter
 HideAccountProtectionWarn
 DisableLockScreen
 # DisableLockScreenRS1
-HideNetworkFromLockScreen
-HideShutdownFromLockScreen
+# HideNetworkFromLockScreen
+# HideShutdownFromLockScreen
 DisableStickyKeys
 ShowTaskManagerDetails
 ShowFileOperationsDetails
 # EnableFileDeleteConfirm
 HideTaskbarSearch
 HideTaskView
-ShowSmallTaskbarIcons
+# ShowSmallTaskbarIcons
 SetTaskbarCombineWhenFull
 HideTaskbarPeopleIcon
 ShowTrayIcons
@@ -84,7 +84,7 @@ DisableNewAppPrompt
 # SetControlPanelSmallIcons
 SetVisualFXPerformance
 # AddENKeyboard
-# EnableNumlock
+EnableNumlock
 # SetSoundSchemeNone
 # DisableStartupSound
 # DisableChangingSoundScheme
@@ -92,7 +92,7 @@ SetVisualFXPerformance
 ShowKnownExtensions
 ShowHiddenFiles
 # EnableFldrSeparateProcess
-# EnableRestoreFldrWindows
+EnableRestoreFldrWindows
 # DisableSharingWizard
 HideSelectCheckboxes
 HideSyncNotifications
@@ -119,13 +119,13 @@ Hide3DObjectsFromThisPC
 DisableThumbnailCache
 DisableThumbsDBOnNetwork
 
-DisableOneDrive
-UninstallOneDrive
+# DisableOneDrive
+# UninstallOneDrive
 UninstallMsftBloat
 UninstallThirdPartyBloat
 # UninstallWindowsStore
 DisableXboxFeatures
-DisableAdobeFlash
+# DisableAdobeFlash
 DisableEdgeShortcutCreation
 # UninstallMediaPlayer
 # UninstallInternetExplorer
@@ -135,14 +135,14 @@ DisableEdgeShortcutCreation
 SetPhotoViewerAssociation
 AddPhotoViewerOpenWith
 # UninstallPDFPrinter
-UninstallXPSPrinter
+# UninstallXPSPrinter
 RemoveFaxPrinter
 # UninstallFaxAndScan
 
 # HideServerManagerOnLogin
 # DisableShutdownTracker
 # DisablePasswordPolicy
-# DisableCtrlAltDelLogin
+DisableCtrlAltDelLogin
 # DisableIEEnhancedSecurity
 # EnableAudio
 
